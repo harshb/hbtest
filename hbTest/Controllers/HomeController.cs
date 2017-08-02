@@ -15,7 +15,7 @@ namespace hbTest.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "Your application description page. Deployed from Github";
 
             return View();
         }
